@@ -1,7 +1,29 @@
 aid: runharbor
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/runharbor.png
 name: Runharbor
-description: Runharbor is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Harbor (Runharbor) is an AI-native contract research organization (CRO) and
+  eClinical data management platform for clinical trials. Its software automates
+  the core clinical-trial data lifecycle — study build, electronic data capture
+  (eCRF/ePRO), source-document extraction, query generation, risk-based remote
+  monitoring, electronic signature, and database lock — using AI to cut manual
+  data entry and accelerate regulatory submissions. The platform is designed for
+  21 CFR Part 11, HIPAA, and ICH E6 (GCP) compliance, with per-trial database
+  isolation and zero standing access to client data. Harbor is offered both as
+  software (Magic Build, Magic Capture, Magic Monitor) and as full-service trial
+  execution for sponsors and CROs. Founded in 2025 in San Francisco and backed
+  by Y Combinator (Spring 2026), Google Cloud, and the NVIDIA Inception Program.
 url: https://raw.githubusercontent.com/api-evangelist/runharbor/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +33,54 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Clinical Trials
+- Healthcare
+- Contract Research Organization
+- Electronic Data Capture
+- Life Sciences
+- Compliance
+- Artificial Intelligence
+- eClinical
 apis: []
+common:
+- type: DomainSecurity
+  url: security/runharbor-domain-security.yml
+- type: Website
+  url: https://runharbor.com/
+- type: Blog
+  url: https://runharbor.com/blog
+- type: Pricing
+  url: https://runharbor.com/pricing
+- type: PrivacyPolicy
+  url: https://runharbor.com/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/runharbor
+- type: LinkedIn
+  url: https://linkedin.com/company/runharbor
+- type: SecurityTxt
+  url: well-known/runharbor-security.txt
+- type: WellKnown
+  url: well-known/runharbor-well-known.yml
+- type: VulnerabilityDisclosure
+  url: security/runharbor-vulnerability-disclosure.yml
+- type: Security
+  url: https://runharbor.com/security
+- type: TrustCenter
+  url: security/runharbor-trust-center.yml
+- type: Compliance
+  url: https://runharbor.com/security
+- type: Conformance
+  url: conformance/runharbor-conformance.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 6
+  pass: local-v1

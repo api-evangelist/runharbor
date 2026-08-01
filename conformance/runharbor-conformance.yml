@@ -1,0 +1,32 @@
+generated: '2026-07-21'
+method: searched
+source: https://runharbor.com/security
+description: >-
+  Industry / regulatory standards Harbor asserts conformance to for its
+  eClinical / clinical-trial data platform, captured from the published
+  /security page. There is no public API surface, so cross-cutting API standards
+  (OAuth2, OIDC, RFC 9457, JSON:API, SCIM, OData) are not applicable and are not
+  asserted. The standards below are healthcare / clinical-research and
+  software-validation frameworks.
+standards:
+- id: 21-cfr-part-11
+  conforms: true
+  evidence: platform provides unique user identification, immutable audit trails, and electronic signature workflows
+- id: hipaa
+  conforms: true
+  evidence: operates as a HIPAA Business Associate; executes BAAs; safeguards ePHI
+- id: ich-e6-gcp
+  conforms: true
+  evidence: quality framework aligned with ICH E6 Good Clinical Practice
+- id: ispe-gamp-5
+  conforms: true
+  evidence: risk-based computerized-system validation methodology
+- id: iso-13485
+  conforms: true
+  evidence: medical-device quality-management alignment for validation
+- id: soc-2
+  conforms: false
+  evidence: not claimed on the /security page
+- id: iso-27001
+  conforms: false
+  evidence: not claimed on the /security page
