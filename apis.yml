@@ -57,6 +57,8 @@ tags:
 - eClinical
 apis: []
 common:
+- type: Plans
+  url: plans/runharbor-plans-pricing.yml
 - type: DomainSecurity
   url: security/runharbor-domain-security.yml
 - type: Website
