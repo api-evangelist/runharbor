@@ -1,0 +1,38 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://runharbor.com/pricing
+sources:
+- https://runharbor.com/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: tiered-subscription
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: true
+note: Clinical trial EDC platform pricing; Commercial tier starts at $2,000/mo, Enterprise is volume/negotiated,
+  Academic free and hosted by provider.
+plan_count: 3
+currency: USD
+plans:
+- name: Academic & Non-Profit
+  price_text: Free
+  period: none
+  included_quota: Full AI suite (Magic Build, Magic Capture, Magic Monitor); Unlimited users, patients,
+    and sites; Standard support (email); Standard exports
+- name: Commercial Study
+  price_text: Starting at $2,000
+  price: 2000
+  currency: USD
+  period: month
+  included_quota: Everything in Academic; 21 CFR Part 11 validation package; Priority support (Slack channel);
+    Training for sites and CRAs; Guaranteed uptime SLA
+- name: Enterprise / CRO
+  price_text: Contact sales
+  period: none
+  included_quota: Everything in Commercial; MSA; SSO/SAML; CTMS/eTMF integrations; Dedicated CSM
